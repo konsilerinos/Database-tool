@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Info</class>
+ <widget class="QWidget" name="Info">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>851</width>
+    <height>341</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>851</width>
+    <height>341</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>851</width>
+    <height>341</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Разработчик</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#Info {
+
+	background-color: #284B63;
+}</string>
+  </property>
+  <widget class="QLabel" name="text1">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>341</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>22</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel#text1 {
+
+	background-color: #284B63;
+	color: #FFFFFF;
+}</string>
+   </property>
+   <property name="text">
+    <string>Разработчик:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="text2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>50</y>
+     <width>341</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel#text2 {
+
+	background-color: #284B63;
+	color: #FFFFFF;
+}</string>
+   </property>
+   <property name="text">
+    <string>Слесарев Николай Сергеевич</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="text3">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>100</y>
+     <width>341</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>22</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel#text3 {
+
+	background-color: #284B63;
+	color: #FFFFFF;
+}</string>
+   </property>
+   <property name="text">
+    <string>GitHub</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="text4">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>140</y>
+     <width>341</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel#text4 {
+
+	background-color: #284B63;
+	color: #FFFFFF;
+}</string>
+   </property>
+   <property name="text">
+    <string>konsilerinos</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="text5">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>190</y>
+     <width>341</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>22</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel#text5 {
+
+	background-color: #284B63;
+	color: #FFFFFF;
+}</string>
+   </property>
+   <property name="text">
+    <string>Почта:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="text6">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>230</y>
+     <width>341</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel#text6 {
+
+	background-color: #284B63;
+	color: #FFFFFF;
+}</string>
+   </property>
+   <property name="text">
+    <string>n_slesarev@mail.ru</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="exitButton">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>280</y>
+     <width>831</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#exitButton {
+
+	background-color: #284B63;
+	color: #FFFFFF;
+	border: 5px solid #FFFFFF;
+}
+QPushButton#exitButton:hover {
+
+	background-color: #FFFFFF;
+	color: #1A3344;
+	border: 5px solid #1A3344;
+}
+QPushButton#exitButton:pressed {
+
+	background-color: #DB1921;
+	color: #FFFFFF;
+	border: 5px solid #1A3344;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Закрыть</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Image">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>10</y>
+     <width>481</width>
+     <height>261</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel#Image {
+
+	background-color: #284B63;
+	background-image: url(:/Images/Developer.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

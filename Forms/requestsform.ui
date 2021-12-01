@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>RequestsForm</class>
+ <widget class="QWidget" name="RequestsForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>791</width>
+    <height>351</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>791</width>
+    <height>351</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>791</width>
+    <height>351</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Запросы, выбор</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#RequestsForm {
+
+	background-color: #284B63;
+}</string>
+  </property>
+  <widget class="QLabel" name="headText">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>771</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel#headText {
+
+	background-color: #FFC300;
+	color: #1A3344;
+	border: 5px solid #1A3344;
+}</string>
+   </property>
+   <property name="text">
+    <string>Запросы</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="text7">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>60</y>
+     <width>161</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel#text7 {
+
+	background-color: #284B63;
+	color: #FFFFFF;
+}</string>
+   </property>
+   <property name="text">
+    <string>Выберите запрос</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="requestsBox">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>60</y>
+     <width>601</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QComboBox#requestsBox {
+
+	border: 5px solid #1A3344;
+}</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="sqlText">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>160</y>
+     <width>771</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTextEdit#sqlText {
+
+	border: 5px solid #1A3344;
+}</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="sqlHeadtext">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>110</y>
+     <width>771</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel#sqlHeadtext {
+
+	background-color: #FFC300;
+	color: #1A3344;
+	border: 5px solid #1A3344;
+}</string>
+   </property>
+   <property name="text">
+    <string>Представление запроса на языке SQL</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="exitButton">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>290</y>
+     <width>381</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#exitButton {
+
+	background-color: #284B63;
+	color: #FFFFFF;
+	border: 5px solid #FFFFFF;
+}
+QPushButton#exitButton:hover {
+
+	background-color: #FFFFFF;
+	color: #1A3344;
+	border: 5px solid #1A3344;
+}
+QPushButton#exitButton:pressed {
+
+	background-color: #DB1921;
+	color: #FFFFFF;
+	border: 5px solid #1A3344;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Закрыть</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="generateButton">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>290</y>
+     <width>381</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#generateButton {
+
+	background-color: #284B63;
+	color: #FFFFFF;
+	border: 5px solid #FFFFFF;
+}
+QPushButton#generateButton:hover {
+
+	background-color: #FFFFFF;
+	color: #1A3344;
+	border: 5px solid #1A3344;
+}
+QPushButton#generateButton:pressed {
+
+	background-color: #DB1921;
+	color: #FFFFFF;
+	border: 5px solid #1A3344;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Выполнить</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
