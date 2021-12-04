@@ -2,7 +2,7 @@
 
 Инструмент для работы с базой данных
 
-Архив с release-версией программы доступна [**здесь**](https://github.com/konsilerinos/Database-tool/blob/main/Release.rar)
+### Архив с release-версией программы доступен [**здесь**](https://github.com/konsilerinos/Database-tool/blob/main/Release.rar)
 
 ## Содержание
 
