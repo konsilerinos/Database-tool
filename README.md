@@ -57,9 +57,6 @@
 
 ## Бонус
 
-### Но я упорный… Я стараюсь…
-
-![Делориан на рабочем столе](https://user-images.githubusercontent.com/78896451/144727371-d3a488b6-d5f6-4173-b4a5-d361c7590571.jpg)
-
+![image](https://user-images.githubusercontent.com/78896451/144727748-9818016f-afdb-4b60-83fc-1948a0678468.png)
 
 ### ©️ Konsilerinos
