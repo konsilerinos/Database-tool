@@ -58,11 +58,11 @@
 
 ## Неоновый делориан
 
+### Но я упорный... Я стараюсь...
+
 ![Делориан на рабочем столе](https://user-images.githubusercontent.com/78896451/144727783-fa9b1910-b5a6-496a-966b-97b599baefec.jpg)
 
 ## Бонус
-
-### Но я упорный... Я стараюсь...
 
 ![image](https://user-images.githubusercontent.com/78896451/144727748-9818016f-afdb-4b60-83fc-1948a0678468.png)
 
