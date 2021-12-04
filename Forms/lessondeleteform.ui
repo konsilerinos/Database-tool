@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>LessonDeleteForm</class>
+ <widget class="QWidget" name="LessonDeleteForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>791</width>
+    <height>351</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>791</width>
+    <height>351</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>791</width>
+    <height>351</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Занятие, удаление</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#LessonDeleteForm {
+
+	background-color: #284B63;
+}</string>
+  </property>
+  <widget class="QComboBox" name="dayBox">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>60</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QComboBox#dayBox {
+
+	border: 5px solid #1A3344;
+}</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="typeBox">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>110</y>
+     <width>471</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QComboBox#typeBox {
+
+	border: 5px solid #1A3344;
+}</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="logText">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>210</y>
+     <width>771</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTextEdit#logText {
+
+	border: 5px solid #1A3344;
+}</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="headText">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>771</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel#headText {
+
+	background-color: #FFC300;
+	color: #1A3344;
+	border: 5px solid #1A3344;
+}</string>
+   </property>
+   <property name="text">
+    <string>Добавление нового занятия</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="IDBox">
+   <property name="geometry">
+    <rect>
+     <x>670</x>
+     <y>110</y>
+     <width>111</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QComboBox#IDBox {
+
+	border: 5px solid #1A3344;
+}</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="exitButton">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>290</y>
+     <width>381</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#exitButton {
+
+	background-color: #284B63;
+	color: #FFFFFF;
+	border: 5px solid #FFFFFF;
+}
+QPushButton#exitButton:hover {
+
+	background-color: #FFFFFF;
+	color: #1A3344;
+	border: 5px solid #1A3344;
+}
+QPushButton#exitButton:pressed {
+
+	background-color: #DB1921;
+	color: #FFFFFF;
+	border: 5px solid #1A3344;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Закрыть</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="logHead">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>160</y>
+     <width>771</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel#logHead {
+
+	background-color: #FFC300;
+	color: #1A3344;
+	border: 5px solid #1A3344;
+}</string>
+   </property>
+   <property name="text">
+    <string>Лог ошибок и предупреждений</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="text1">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>60</y>
+     <width>171</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel#text1 {
+
+	background-color: #284B63;
+	color: #FFFFFF;
+}</string>
+   </property>
+   <property name="text">
+    <string>День / время</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="yearBox">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>60</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QComboBox#yearBox {
+
+	border: 5px solid #1A3344;
+}</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="text2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>110</y>
+     <width>171</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel#text2 {
+
+	background-color: #284B63;
+	color: #FFFFFF;
+}</string>
+   </property>
+   <property name="text">
+    <string>Тип / ИД</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="monthBox">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>60</y>
+     <width>191</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QComboBox#monthBox {
+
+	border: 5px solid #1A3344;
+}</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="timeBox">
+   <property name="geometry">
+    <rect>
+     <x>670</x>
+     <y>60</y>
+     <width>111</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QComboBox#timeBox {
+
+	border: 5px solid #1A3344;
+}</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="deleteButton">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>290</y>
+     <width>381</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#deleteButton {
+
+	background-color: #284B63;
+	color: #FFFFFF;
+	border: 5px solid #FFFFFF;
+}
+QPushButton#deleteButton:hover {
+
+	background-color: #FFFFFF;
+	color: #1A3344;
+	border: 5px solid #1A3344;
+}
+QPushButton#deleteButton:pressed {
+
+	background-color: #DB1921;
+	color: #FFFFFF;
+	border: 5px solid #1A3344;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Удалить</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
