@@ -1,5 +1,7 @@
 # Database-tool
 
+Инструмент для работы с базой данных
+
 ### Архив с release-версией программы доступен [**здесь**](https://github.com/konsilerinos/Database-tool/blob/main/Release.rar)
 
 Qt Creator - фреймворк для разработки кроссплатформенного программного обеспечения на языке программирования C++
