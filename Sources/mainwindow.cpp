@@ -1,6 +1,5 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
-#include <QListWidgetItem>
 
 MainWindow::MainWindow(QWidget* parent) : QMainWindow(parent), ui(new Ui::MainWindow) {
 
@@ -35,6 +34,8 @@ MainWindow::MainWindow(QWidget* parent) : QMainWindow(parent), ui(new Ui::MainWi
 
     ui->tablesListWidget->setCurrentIndex(ui->tablesListWidget->model()->index(0, 0));
     ShowDatabaseTable(); // Вывод БД на экран
+
+    ui->infoButton->setText("Лицензия\nРазработчик"); // Сохранение надписи для infoButton
 
     // Установка режима "Только для чтения" для ячеек таблицы
     // ui->tableView->setEditTriggers(QAbstractItemView::NoEditTriggers);
@@ -220,6 +221,8 @@ void MainWindow::OpenDatabase() {
 
         // Установка сообщения об ошибке в заголовок
         ui->tableHead->setText("Ошибка: база данных не найдена");
+
+        QApplication::exit(); // Завершение работы
     }
 
     // Модель БД, необходима для её вывода на экран
@@ -248,8 +251,18 @@ void MainWindow::ShowDatabaseTable() {
     // Вывод таблицы на экран
     ui->tableView->setModel(model);
 
+    if (ui->tablesListWidget->item(ui->tablesListWidget->currentRow())->text() == "Занятие") {
+
+        ui->tableView->setItemDelegateForColumn(0, new dateDelegate); // Установка делегата для отображения даты
+        ui->tableView->setItemDelegateForColumn(1, new timeDelegate); // Установка делегата для отображения времени
+    } else {
+
+        ui->tableView->setItemDelegateForColumn(0, new valueDelegate); // Установка делегата по умолчанию
+        ui->tableView->setItemDelegateForColumn(1, new valueDelegate); // Установка делегата по умолчанию
+    }
+
     // Автоматическое выравнивание столбцов
-    ui->tableView->horizontalHeader()->setSectionResizeMode(QHeaderView::Stretch);
+    ui->tableView->horizontalHeader()->setSectionResizeMode(QHeaderView::ResizeToContents);
 }
 
 // Открыть форму добавления кафедры

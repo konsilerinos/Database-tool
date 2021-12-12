@@ -31,6 +31,7 @@ HEADERS += \
     auditoriumdeleteform.h \
     auditoriuminsertform.h \
     changeinfoform.h \
+    datedelegate.h \
     departmentdeleteform.h \
     departmentinsertform.h \
     groupdeleteform.h \
@@ -43,7 +44,9 @@ HEADERS += \
     subjectdeleteform.h \
     subjectinsertform.h \
     teacherdeleteform.h \
-    teacherinsertform.h
+    teacherinsertform.h \
+    timedelegate.h \
+    valueDelegate.h
 
 FORMS += \
     auditoriumdeleteform.ui \
@@ -64,7 +67,7 @@ FORMS += \
     teacherinsertform.ui
 
 VERSION = 1.2.1.1
-QMAKE_TARGET_COMPANY = Konsilerinos C
+QMAKE_TARGET_COMPANY = Defunct konsilerinos cmp
 QMAKE_TARGET_PRODUCT = Database tool
 QMAKE_TARGET_DESCRIPTION = Tool
 QMAKE_TARGET_COPYRIGHT = Konsilerinos

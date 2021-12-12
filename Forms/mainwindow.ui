@@ -6,19 +6,19 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1491</width>
+    <width>1321</width>
     <height>721</height>
    </rect>
   </property>
   <property name="minimumSize">
    <size>
-    <width>1491</width>
+    <width>1321</width>
     <height>721</height>
    </size>
   </property>
   <property name="maximumSize">
    <size>
-    <width>1491</width>
+    <width>1321</width>
     <height>721</height>
    </size>
   </property>
@@ -37,7 +37,7 @@
      <rect>
       <x>180</x>
       <y>110</y>
-      <width>1301</width>
+      <width>1131</width>
       <height>601</height>
      </rect>
     </property>
@@ -158,7 +158,7 @@ QListView::item:selected {
      <rect>
       <x>10</x>
       <y>10</y>
-      <width>1471</width>
+      <width>1301</width>
       <height>41</height>
      </rect>
     </property>
@@ -189,7 +189,7 @@ QListView::item:selected {
      <rect>
       <x>180</x>
       <y>60</y>
-      <width>1301</width>
+      <width>1131</width>
       <height>41</height>
      </rect>
     </property>
@@ -416,7 +416,7 @@ QPushButton#infoButton:pressed {
 </string>
     </property>
     <property name="text">
-     <string>Разработчик</string>
+     <string/>
     </property>
    </widget>
    <widget class="QPushButton" name="requestsButton">

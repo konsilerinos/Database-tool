@@ -4,6 +4,7 @@
 #include "auditoriumdeleteform.h"
 #include "auditoriuminsertform.h"
 #include "changeinfoform.h"
+#include "datedelegate.h"
 #include "departmentdeleteform.h"
 #include "departmentinsertform.h"
 #include "groupdeleteform.h"
@@ -16,6 +17,8 @@
 #include "subjectinsertform.h"
 #include "teacherdeleteform.h"
 #include "teacherinsertform.h"
+#include "timedelegate.h"
+#include "valueDelegate.h"
 #include <QDateTime>
 #include <QMainWindow>
 #include <QSqlDatabase>

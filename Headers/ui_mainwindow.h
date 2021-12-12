@@ -42,9 +42,9 @@ public:
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName(QString::fromUtf8("MainWindow"));
-        MainWindow->resize(1491, 721);
-        MainWindow->setMinimumSize(QSize(1491, 721));
-        MainWindow->setMaximumSize(QSize(1491, 721));
+        MainWindow->resize(1321, 721);
+        MainWindow->setMinimumSize(QSize(1321, 721));
+        MainWindow->setMaximumSize(QSize(1321, 721));
         MainWindow->setStyleSheet(QString::fromUtf8("QMainWindow#MainWindow {\n"
 "\n"
 "	background-color: #284B63;\n"
@@ -53,7 +53,7 @@ public:
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
         tableView = new QTableView(centralwidget);
         tableView->setObjectName(QString::fromUtf8("tableView"));
-        tableView->setGeometry(QRect(180, 110, 1301, 601));
+        tableView->setGeometry(QRect(180, 110, 1131, 601));
         tableView->setMaximumSize(QSize(99999, 16777215));
         tableView->setStyleSheet(QString::fromUtf8("QTableView {\n"
 "\n"
@@ -133,7 +133,7 @@ public:
 "}"));
         headText = new QLabel(centralwidget);
         headText->setObjectName(QString::fromUtf8("headText"));
-        headText->setGeometry(QRect(10, 10, 1471, 41));
+        headText->setGeometry(QRect(10, 10, 1301, 41));
         QFont font1;
         font1.setPointSize(16);
         font1.setBold(true);
@@ -148,7 +148,7 @@ public:
         headText->setAlignment(Qt::AlignCenter);
         tableHead = new QLabel(centralwidget);
         tableHead->setObjectName(QString::fromUtf8("tableHead"));
-        tableHead->setGeometry(QRect(180, 60, 1301, 41));
+        tableHead->setGeometry(QRect(180, 60, 1131, 41));
         QFont font2;
         font2.setPointSize(16);
         font2.setBold(false);
@@ -306,7 +306,7 @@ public:
         toolsHead->setText(QApplication::translate("MainWindow", "\320\227\320\260\320\277\320\270\321\201\320\270", nullptr));
         tablesHead->setText(QApplication::translate("MainWindow", "\320\242\320\260\320\261\320\273\320\270\321\206\321\213", nullptr));
         requestsHead->setText(QApplication::translate("MainWindow", "\320\227\320\260\320\277\321\200\320\276\321\201\321\213", nullptr));
-        infoButton->setText(QApplication::translate("MainWindow", "\320\240\320\260\320\267\321\200\320\260\320\261\320\276\321\202\321\207\320\270\320\272", nullptr));
+        infoButton->setText(QString());
         requestsButton->setText(QApplication::translate("MainWindow", "\320\222\321\213\320\261\321\200\320\260\321\202\321\214", nullptr));
     } // retranslateUi
 

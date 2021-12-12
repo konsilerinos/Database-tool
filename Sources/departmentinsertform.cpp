@@ -76,7 +76,7 @@ void DepartmentInsertForm::resirvedData(QSqlTableModel* resModel, QSqlQueryModel
 
     QString str = "SELECT [Идентификатор кафедры] "
                   "FROM Кафедра "
-                  "WHERE [Идентификатор предмета] = ( "
+                  "WHERE [Идентификатор кафедры] = ( "
                   "    SELECT MAX([Идентификатор кафедры]) "
                   "    FROM Кафедра "
                   ")";
