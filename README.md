@@ -2,9 +2,6 @@
 
 Инструмент для работы с базой данных
 
-### Архив с release-версией программы доступен [**здесь**](https://github.com/konsilerinos/Database-tool/blob/main/Release.rar)
-### Установщик программы доступен [**здесь**](https://github.com/konsilerinos/Database-tool/blob/main/setup.exe)
-
 Qt Creator - фреймворк для разработки кроссплатформенного программного обеспечения на языке программирования C++
 
 Для работы с базами данных библиотека Qt предоставляет отдельный модуль QSql
